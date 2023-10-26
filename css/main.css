@@ -1,14 +1,28 @@
 /* HEADER */
 
-* {
+*{
     font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #dbdbd3;
+    width: 100vw;
 }
 
 .container{
     height: 12%;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    background-color: #c2bfb8;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+    width: 100vw;
 }
+
+.link-right{
+    margin-left: auto;}
 
 #logo{
     font-weight: 500;
@@ -16,12 +30,11 @@
     border: 2px solid black;
     display: inline;
     padding: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 nav{
     flex: 1;
-    text-align: right;
     padding-right: 40px;
 }
 
@@ -29,12 +42,20 @@ nav ul li{
 list-style: none;
 display: inline-block;
 margin-left: 60px;
-padding-left: 0;
+padding-left: 0%;
 }
 
-a {
+ul{
+    display:flex;
+}
+
+a{
     color: black;
     text-decoration: none;
+}
+
+a:hover{
+    color: gray;
 }
 
 /* MAIN */
@@ -47,9 +68,17 @@ a {
     width: 20%;
 }
 
+main{
+    margin: 50px 20px 50px 20px;
+}
+
 /* FOOTER */
 
 footer{
     margin-top: 1rem ;
     border-top: 2px solid black;
+}
+
+#copyright{
+    margin-left: 20px;
 }
