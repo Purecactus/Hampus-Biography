@@ -1,0 +1,55 @@
+/* HEADER */
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    display: inline;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-left: 60px;
+padding-left: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+.gym-img, .pasta-img, .guitar-img{
+    width: 30%;
+}
+
+.main-img{
+    width: 20%;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 1rem ;
+    border-top: 2px solid black;
+}
