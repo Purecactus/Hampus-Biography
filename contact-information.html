@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
         rel="stylesheet">
 </head>
+
 <body>
     <header class="container">
         <p id="logo">Hampus Zackrisson</p>
@@ -20,10 +21,10 @@
                     <li>Home</li>
                 </a>
                 <a href="about-me.html">
-                    <li>About me</li>
+                    <li>My portfolio</li>
                 </a>
                 <a href="contact-information.html">
-                    <li>Contact information</li>
+                    <li>Contact Me</li>
                 </a>
                     <li class="link-right"><a href="Links">Links</a></li>
             </ul>
@@ -31,10 +32,37 @@
     </header>
 
     <main>
-        <p>Phone: 073-510 26 32</p>
-        <p>Mail: zaha23ct@student.ju.se</p>
-        <p>Adress: Mystic Forest 1026</p>
+        <p id="contact-me">
+            Contact me
+        </p>
 
+        <p id="Mail">
+            Mail: zaha23ct@student.ju.se
+        </p>
+
+<!-- Line 44-66 are inspired by W3schools -->
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="location">Location</label>
+              <select id="location" name="location">
+                <option value="Sweden">Sweden</option>
+                <option value="North-America">North America</option>
+                <option value="South-America">South America</option>
+                <option value="Australia">Australia</option>
+                <option value="Europe">Europe</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </main>
 
     <footer>
