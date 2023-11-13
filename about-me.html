@@ -24,27 +24,58 @@
                     <li>Portfolio</li>
                 </a>
                 <a href="contact-information.html">
-                    <li>Contact Me</li>
+                    <li>Contact me</li>
                 </a>
-                    <li class="link-right"><a href="Links">Links</a></li>
+                    <li class="link-right"><a href="#">Links</a></li>
             </ul>
         </nav>
     </header>
+</body>
 
 <main>
-    <div class="grid-container">
-        <div class="work-one"></div>
-        <div class="work-two"></div>
-        <div class="work-three"></div>
-        <div class="work-four"></div>
-        <div class="work-five"></div>
+    <p id="click-on-picture">
+        You can read more about a work by clickin on the button beneath...
+    </p>
+
+            <!-- Button and popup window -->
+            <button type="button" class="btnp" onclick="openPopup1()">Read more </button>
+            <div class="popup1" id="popup1">
+                <h2>Firewatch</h2>
+                <p>Central to the composition is the firewatch tower, standing as a lone sentinel against the sprawling landscape. This poster eschews intricate details, opting for clean lines and negative space, yet manages to convey the tower's significance in the narrative. A thin plume of smoke rises from the chimney, a poignant reminder of the character's isolation and the ever-present responsibility of watching for forest fires.</p>
+                <button type="button" class="btn" onclick="closePopup1()">Close</button>
+            </div>
+            <!-- End of button and popup -->
+            
+    <!-- Grid container with images and buttons -->
+    <div class="item-container">
+        <img class="item-1" src="img/firewatch.jpg" alt="Firewatch poster">
+        <img class="item-2" src="img/jungle-book.jpg" alt="Jungle book poster">
+        <img class="item-3" src="img/the-evil-dead.jpeg" alt="The evil dead poster">
+        <img class="item-4" src="img/totoro.jpeg" alt="Totoro poster">
+        <img class="item-5" src="img/sightseers.jpg" alt="sightseers poster">
+        <img class="item-6" src="img/c3p0.jpg" alt="c3p0 poster">
     </div>
+    <!-- End of grid container with images and buttons -->
+
+<!-- Javascript for the button -->
+<script>
+let popup = document.getElementById(popup1);
+
+function openPopup1(){
+    popup.classList.add("open-popup1");
+}
+function closePopup1(){
+    popup.classList.remove("open-popup1");
+}
+</script>
+<!-- End of Javascript for the button -->
+
 </main>
 
 <footer>
     <p id="copyright">
         © 2023
     </p>
-    </footer>
-</body>
+</footer>
+
 </html>
