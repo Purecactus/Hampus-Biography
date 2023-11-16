@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-  height: 12%;
+  height: 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,12 +22,15 @@ body{
 }
 
 .link-right{
-  margin-left: auto;}
+  margin-left: auto;
+  margin-right: 1rem;
+}
 
 #logo{
   font-weight: 500;
   font-size: 1.2rem;
   border: 2px solid black;
+  border-radius: 5px;
   display: inline;
   padding: 10px;
   margin-left: 20px;
@@ -120,19 +123,18 @@ input[type=text], select, textarea {
 
   /* the following lines are for the works in the portfolio */
 .item-container{
-  margin: 100px 200px 100px 200px;
   display: grid;
-  height: 1200px;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 500px 500px;
-  grid-gap: 100px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
 }
 
-.item-1{
-  height: 500px;
-  width: 350px;
+.item-image{
+  width: 70%;
 }
 
+<<<<<<< HEAD
 .item-2{
   height: 500px;
   width: 350px;
@@ -172,10 +174,6 @@ input[type=text], select, textarea {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3)
 }
 
-.btnp hover{
-  opacity: 50%;
-}
-
 .popup1{
   background-color: #f2f2f2;
   width: 400px;
@@ -211,15 +209,19 @@ input[type=text], select, textarea {
   font-size: 38px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 30px 0px 10px;
+=======
+@media screen and (min-width: 1208px) {
+  
+>>>>>>> 20bc2dd49226c419d9741fcedcf577fdb720008c
 }
 
 /* FOOTER */
 
 footer{
-    margin-top: 1rem ;
+    margin-top: 1rem;
     border-top: 2px solid black;
 }
 
 #copyright{
-    margin-left: 20px;
+  margin-left: 4rem;
 }
