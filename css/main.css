@@ -145,6 +145,7 @@ input[type=text], select, textarea {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   margin-top: 5rem;
+  grid-gap: 1rem;
 }
 
 #firewatch-info{
@@ -153,7 +154,7 @@ input[type=text], select, textarea {
   text-align:left;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1180px) {
   .item-container{
     display: grid;
     justify-items: center;
@@ -200,6 +201,13 @@ input[type=text], select, textarea {
   #firewatch-info{
     font-size: 1rem;
     margin-right: 1rem;
+  }
+
+  #click-on-picture{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .main-img{
