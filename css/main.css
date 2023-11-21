@@ -14,10 +14,7 @@ body{
 }
 
 .container{
-<<<<<<< HEAD
-=======
   height: 10%;
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,10 +26,7 @@ body{
 
 .link-right{
   margin-left: auto;
-<<<<<<< HEAD
   margin-right: 1rem;
-=======
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
 }
 
 #logo{
@@ -42,11 +36,8 @@ body{
   border-radius: 5px;
   display: inline;
   padding: 1rem;
-<<<<<<< HEAD
   margin-left: 2rem;
-=======
   margin-left: 1rem;
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
 }
 
 nav{
@@ -57,11 +48,8 @@ nav{
 nav ul li{
 list-style: none;
 display: inline-block;
-<<<<<<< HEAD
 margin-left: 5rem;
-=======
 margin-left: 4rem;
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
 padding-left: 0%;
 }
 
@@ -154,7 +142,6 @@ input[type=text], select, textarea {
 
 /* the following lines are for the responsivness */
 @media only screen and (max-width: 820px) {
-=======
   grid-gap: 1rem;
   text-align: center;
 }
@@ -167,6 +154,7 @@ input[type=text], select, textarea {
 #firewatch-image{
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 .firewatch-page-container{
@@ -184,13 +172,12 @@ input[type=text], select, textarea {
 }
 
 @media screen and (max-width: 1180px) {
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
+
   .item-container{
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-<<<<<<< HEAD
     grid-gap: 3rem;
   }
   .link-right{
@@ -236,7 +223,6 @@ input[type=text], select, textarea {
 
   #logo{
     font-weight: 400;
-=======
     grid-gap: 1rem;
   }
   .container{
@@ -256,12 +242,12 @@ input[type=text], select, textarea {
   
   #logo{
     font-weight: 500;
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
+
     font-size: 1.2rem;
     border: 2px solid black;
     border-radius: 5px;
     display: inline;
-<<<<<<< HEAD
+
     padding: none;
     margin: 0 0 0 0;
   }
@@ -274,7 +260,6 @@ input[type=text], select, textarea {
   nav ul li{
   display: inline;
   padding: 0 0 0 0;
-=======
     padding: 1rem;
     margin-left: 1rem;
   }
@@ -373,19 +358,15 @@ input[type=text], select, textarea {
 
   .main-img{
     width: 80%;
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
   }
 }
 
 /* FOOTER */
 footer{
-<<<<<<< HEAD
   margin-top: 1rem;
-   border-top: 2px solid black;
-=======
-    margin-top: 1rem;
-    border-top: 2px solid black;
->>>>>>> e1864a24c2fbea571ca50b84fa79ea5d9352858a
+  border-top: 2px solid black;
+  margin-top: 1rem;
+  border-top: 2px solid black;
 }
 
 #copyright{
