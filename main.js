@@ -1,8 +1,4 @@
-
-let popup = document.getElementById(popup1);
-
-function openPopup1(){
-    popup.classList.add("open-popup1")}
-
-function closePopup1(){
-    popup.classList.remove("open-popup1")}
+// Function to close the popup
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}

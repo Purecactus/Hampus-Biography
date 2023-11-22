@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact information</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="main.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link 
@@ -17,13 +18,13 @@
         <p id="logo">Hampus Zackrisson</p>
         <nav>
             <ul>
-                <a href="index.html">
+                <a class="link" href="index.html">
                     <li>Home</li>
                 </a>
-                <a href="about-me.html">
+                <a class="link" href="about-me.html">
                     <li>Portfolio</li>
                 </a>
-                <a href="contact-information.html">
+                <a class="link" href="contact-information.html">
                     <li>Contact</li>
                 </a>
                     <li class="link-right"><a href="Links">Links</a></li>
@@ -60,9 +61,16 @@
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
           
               <input type="submit" value="Submit">
-          
+
             </form>
           </div>
+
+        <div id="popup" class="popup">
+            <h2>Popup Content</h2>
+            <p>This is some content in the popup window.</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+
     </main>
 
     <footer>
