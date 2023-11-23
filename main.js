@@ -1,4 +1,10 @@
-// Function to close the popup
-function closePopup() {
-    document.getElementById("popup").style.display = "none";
-}
+// Function to popup
+document.addEventListener('DOMContentLoaded', function () {
+    var sendbutton = document.getElementById('sendbutton');
+
+    sendbutton.addEventListener('click', function (){
+        setTimeout(function () {
+            alert('Your message has been sent!');
+        }, 0);
+    })
+});
