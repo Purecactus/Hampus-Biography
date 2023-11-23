@@ -1,10 +1,13 @@
-// Function to popup
-document.addEventListener('DOMContentLoaded', function () {
-    var sendbutton = document.getElementById('sendbutton');
 
-    sendbutton.addEventListener('click', function (){
-        setTimeout(function () {
-            alert('Your message has been sent!');
-        }, 0);
-    })
-});
+
+
+
+// Read more
+const buttonElement = document.getElementById("btn");
+const myText = document.getElementById("firewatch-info")
+buttonElement.addEventListener("click", clickFunction); 
+
+function clickFunction() {
+    myText.style.display = "block";
+    console.log("Hello")
+}
