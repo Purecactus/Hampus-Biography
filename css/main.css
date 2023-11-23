@@ -159,6 +159,7 @@ input[type=text], select, textarea {
 #btn{
   padding: 10px 50px;
   height: 5rem;
+  width: 18rem;
   background: gray;
   border: 0;
   outline: none;
@@ -172,18 +173,6 @@ input[type=text], select, textarea {
 
 #btn:hover{
   background: lightgray;
-}
-
-/* the following lines are for the responsivness */
-@media screen and (max-width: 820px) {
-  .item-container{
-  grid-gap: 1rem;
-  text-align: center;
-  }
-}
-
-.item-image{
-  width: 80%;
 }
 
 /*the following lines are for the Firewatch page */
@@ -208,7 +197,7 @@ input[type=text], select, textarea {
   display: none;
 }
 
-
+/* the following lines are for the responsivness */
 @media screen and (max-width: 1180px) {
 
   .item-container{
@@ -396,6 +385,10 @@ input[type=text], select, textarea {
 
   .main-img{
     width: 80%;
+  }
+
+  a{
+    font-weight: bold;
   }
 }
 

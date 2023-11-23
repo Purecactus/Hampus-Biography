@@ -1,7 +1,4 @@
 
-
-
-
 // Read more
 const buttonElement = document.getElementById("btn");
 const myText = document.getElementById("firewatch-info")
