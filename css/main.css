@@ -83,6 +83,27 @@ a{
   }
 }
 
+.item-image:hover{
+  animation: zoomAnimation 0.25s;
+  animation-delay: calc(.1s * var(--i));
+  opacity: 50%;
+}
+
+@keyframes zoomAnimation{
+  0%,50%,100% {
+    transform: scale(100%);
+  }
+  25%{
+    transform: scale(102%);
+  }
+  50%{
+    transform: scale(105%);
+  }
+  90%{
+    transform: scale(100%);
+  }
+}
+
 /* MAIN */
 .main-img{
   width: 30%;
